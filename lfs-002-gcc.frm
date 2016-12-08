@@ -7,7 +7,7 @@ inputs:
                 silo: "file+ca://wares/"
         "/lfs/tools":
                 type: "tar"
-                tag: "lfs-001-binutils" 
+                tag:  "lfs-001-binutils"
                 silo: "file+ca://wares/"
         "/src/gcc":
                 type: "tar"
