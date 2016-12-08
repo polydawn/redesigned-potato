@@ -1,6 +1,25 @@
 {
-	"Memos": {},
-	"RunRecords": {},
+	"Memos": {
+		"XO2tJF7N5-8cxz7fzg5BUymYOkqDnhxye5sJ_4bKeZYOoxOQ9E63p9tw1YRt4hmi": "5BIB2_fDnELTX3pu4k9B31Ed4gjEta435DaE4f7LKCziGFhk6i1PLYHEZI0avJ-s"
+	},
+	"RunRecords": {
+		"5BIB2_fDnELTX3pu4k9B31Ed4gjEta435DaE4f7LKCziGFhk6i1PLYHEZI0avJ-s": {
+			"HID": "5BIB2_fDnELTX3pu4k9B31Ed4gjEta435DaE4f7LKCziGFhk6i1PLYHEZI0avJ-s",
+			"UID": "b3edzx8b-4mtgms32-h7e4py3c",
+			"formulaHID": "XO2tJF7N5-8cxz7fzg5BUymYOkqDnhxye5sJ_4bKeZYOoxOQ9E63p9tw1YRt4hmi",
+			"results": {
+				"$exitcode": {
+					"hash": "0",
+					"type": "exitcode"
+				},
+				"gcc": {
+					"hash": "Y5Pl4hFIRnykrUsP0mhMLFqwU7DfmEyUzFpHifDuwGz0ZJmBjrLk9CKqrFGf6hDZ",
+					"type": "tar"
+				}
+			},
+			"when": "2016-12-08T00:45:51-05:00"
+		}
+	},
 	"Tags": {
 		"ubuntu-base": {
 			"RunRecordHID": "",
@@ -13,6 +32,13 @@
 			"RunRecordHID": "",
 			"Ware": {
 				"hash": "0-wPN--PLP80sClmWF_GtUZMckIEiSIC9nCcbzwun55ucvZA2P3ui9rx63yMVacc",
+				"type": "tar"
+			}
+		},
+		"gcc": {
+			"RunRecordHID": "5BIB2_fDnELTX3pu4k9B31Ed4gjEta435DaE4f7LKCziGFhk6i1PLYHEZI0avJ-s",
+			"Ware": {
+				"hash": "Y5Pl4hFIRnykrUsP0mhMLFqwU7DfmEyUzFpHifDuwGz0ZJmBjrLk9CKqrFGf6hDZ",
 				"type": "tar"
 			}
 		}
