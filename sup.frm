@@ -7,21 +7,22 @@ inputs:
 			- "http+ca://repeatr.s3.amazonaws.com/assets/"
 	"/task/src/gcc":
 		type: "tar"
-		hash: "r3BCHaK3I4JUQcOttPvV6MjuKleytKuuOwWcOp3f-xj2exkRvJu_p3WdjuuY9Wyo"
-		silo: "https://ftp.gnu.org/gnu/gcc/gcc-4.9.3/gcc-4.9.3.tar.bz2"
+		hash: "Oez-roS1_43a20jVb7RqtK0g2KbrU87Wd__B5N_rCnkplQZU8tY0Rk9hdiyUXzkb"
+		silo: "https://ftp.gnu.org/gnu/gcc/gcc-6.2.0/gcc-6.2.0.tar.gz"
 	"/task/src/mpfr":
 		type: "tar"
-		hash: "XOE2UW3gt8zDeip2lbS1o2QnHKjtTKMbdUMqBygHAssrk81hgJ74Ss2dicOzokyd"
-		silo: "https://ftp.gnu.org/gnu/mpfr/mpfr-3.0.1.tar.bz2"
+		hash: "zDDUnHejvCr6AOuxeJHXgG4tDtvB6_tVpmC8aIQFSsQmYBokgJxXtb2TeWdul9yZ"
+		silo: "https://ftp.gnu.org/gnu/mpfr/mpfr-3.1.5.tar.gz"
 	"/task/src/gmp":
 		type: "tar"
-		hash: "vFbHn-XDgPRKI2j6aYXonaviCd-TBdaH3GdvyC-Tj04Ys0LTc_bqlBgERe5Gmllu"
-		silo: "https://ftp.gnu.org/gnu/gmp/gmp-5.0.2.tar.bz2"
+		hash: "mbO3LDXQDhJZvH9hKPUFYbidQc9tI8qkSqVvstJWGfdT4S3u6y2mDboltFVNjYKY"
+		silo: "https://ftp.gnu.org/gnu/gmp/gmp-6.1.1.tar.bz2"
 	"/task/src/mpc":
 		type: "tar"
 		hash: "WfzjtnEfTaA-NaczWSMymCVxH8ydkaUa44wlfbilZnBt_H9KNaXq4zChZJ7qFdiQ"
 		silo: "https://ftp.gnu.org/gnu/mpc/mpc-1.0.3.tar.gz"
 action:
+	policy: "sysad"
 	command:
 		- "/bin/bash"
 		- "-c"
@@ -35,11 +36,31 @@ action:
 		#   - http://openwall.info/wiki/internal/gcc-local-build
 		- |
 			#!/bin/bash
-			echo bitches aint
 			set -euo pipefail
 			set -x
+			
+			apt-get update
+			apt-get install -y automake texinfo libtool autoconf autogen
 
-			gccSrcPath=/task/src/gcc/gcc-4.9.3/
+			function install_automake() {
+			    [ $# -eq 0 ] && { run_error "Usage: install_automake <version>"; exit; }
+			    local VERSION=${1}
+			    wget ftp://ftp.gnu.org/gnu/automake/automake-${VERSION}.tar.gz &> /dev/null
+			    if [ -f "automake-${VERSION}.tar.gz" ]; then
+				    tar -xzf automake-${VERSION}.tar.gz
+				    cd automake-${VERSION}/
+				    ./configure
+				    make && make install
+				    echo -e "\e[1;39m[   \e[1;32mOK\e[39m   ] automake-${VERSION} installed\e[0;39m"
+
+				else
+				    echo -e "\e[1;39m[   \e[31mError\e[39m   ] cannot fetch file from ftp://ftp.gnu.org/gnu/automake/ \e[0;39m"
+				    exit 1
+			    fi
+			}
+			install_automake 1.15
+
+			gccSrcPath=/task/src/gcc/gcc-6.2.0/
 			mkdir /yield
 			cd /yield
 
@@ -50,8 +71,8 @@ action:
 
 			# minimum viable libraries (as sources)
 			# ... jk, just move them into a location where gcc picks them up, otherwise we have to separately compile these
-			#params+=("--with-gmp=/task/src/gmp/gmp-5.0.2/")
-			#params+=("--with-mpfr=/task/src/mpfr/mpfr-3.0.1/")
+			#params+=("--with-gmp=/task/src/gmp/gmp-6.1.1/")
+			#params+=("--with-mpfr=/task/src/mpfr/mpfr-3.1.5/")
 			#params+=("--with-mpc=/task/src/mpc/mpc-1.0.3")
 			## Note: following could mv... if we fixed certain cradle issues.
 			cp -r /task/src/gmp/*  $gccSrcPath/gmp
