@@ -22,7 +22,7 @@ inputs:
 		hash: "WfzjtnEfTaA-NaczWSMymCVxH8ydkaUa44wlfbilZnBt_H9KNaXq4zChZJ7qFdiQ"
 		silo: "https://ftp.gnu.org/gnu/mpc/mpc-1.0.3.tar.gz"
 action:
-	policy: "sysad"
+	policy: "governor"
 	command:
 		- "/bin/bash"
 		- "-c"
