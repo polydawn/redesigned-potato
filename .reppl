@@ -8,6 +8,13 @@
 				"hash": "aLMH4qK1EdlPDavdhErOs0BPxqO0i6lUaeRE4DuUmnNMxhHtF56gkoeSulvwWNqT",
 				"type": "tar"
 			}
+		},
+		"ubuntu-base+gcc": {
+			"RunRecordHID": "",
+			"Ware": {
+				"hash": "0-wPN--PLP80sClmWF_GtUZMckIEiSIC9nCcbzwun55ucvZA2P3ui9rx63yMVacc",
+				"type": "tar"
+			}
 		}
 	}
 }
