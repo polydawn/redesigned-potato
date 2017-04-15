@@ -22,4 +22,6 @@ reppl eval lfs-002-gcc.frm
 
 reppl put hash  kernel-src  gFPeFwgxUTG_1wkAcvQhLLK0KE_kXlVzve7VOAJiIdF70Khrpb28aVVIPoDWPUEo  --warehouse=https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.7.2.tar.xz
 reppl eval lfs-003-kernelheaders.frm
+
+reppl put hash glibc-src  EuSaUYVTHP-qIzxgY2vDdArjzitbFQQ8G-YDe2_dZU48zGd0seLcBpb6kGElk62Z --warehouse=http://ftp.gnu.org/gnu/glibc/glibc-2.24.tar.xz
 reppl eval lfs-004-glibc.frm

@@ -1,19 +1,9 @@
 ## Glibc!
 ##  http://www.linuxfromscratch.org/lfs/view/stable/chapter05/glibc.html
 inputs:
-        "/":
-                type: "tar"
-                tag:  "ubuntu+lfs-deps"
-                silo:
-                        - "file+ca://wares/"
-        "/src/glibc":
-                type: "tar"
-                hash: "EuSaUYVTHP-qIzxgY2vDdArjzitbFQQ8G-YDe2_dZU48zGd0seLcBpb6kGElk62Z"
-                silo: "http://ftp.gnu.org/gnu/glibc/glibc-2.24.tar.xz"
-        "/lfs/tools":
-                type: "tar"
-                tag:  "lfs-003-kernelheaders"
-                silo: "file+ca://wares/"
+        "/":           {tag: "ubuntu+lfs-deps"}
+        "/src/glibc":  {tag: "glibc-src"}
+        "/lfs/tools":  {tag: "lfs-003-kernelheaders"}
 action:
         policy: governor
         env:
