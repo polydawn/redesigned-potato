@@ -29,3 +29,5 @@ reppl eval lfs-003-kernelheaders.frm
 
 reppl put hash  glibc-src  EuSaUYVTHP-qIzxgY2vDdArjzitbFQQ8G-YDe2_dZU48zGd0seLcBpb6kGElk62Z --warehouse=http://ftp.gnu.org/gnu/glibc/glibc-2.24.tar.xz
 reppl eval lfs-004-glibc.frm
+
+reppl eval lfs-005-test.frm

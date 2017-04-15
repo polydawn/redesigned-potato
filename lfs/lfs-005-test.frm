@@ -2,16 +2,8 @@
 ##  This is the test drive suggested at the end of http://www.linuxfromscratch.org/lfs/view/stable/chapter05/glibc.html
 ## Note that we're using a rootfs that does *not* include compilers here.
 inputs:
-        "/":
-                type: "tar"
-                tag:  "ubuntu-base"
-                silo:
-                        - "file+ca://wares/"
-                        - "http+ca://repeatr.s3.amazonaws.com/assets/"
-        "/lfs/tools":
-                type: "tar"
-                tag:  "lfs-004-glibc"
-                silo: "file+ca://wares/"
+        "/":           {tag:  "ubuntu-base"}
+        "/lfs/tools":  {tag:  "lfs-004-glibc"}
 action:
         policy: governor
         env:
