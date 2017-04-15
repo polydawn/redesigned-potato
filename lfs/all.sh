@@ -20,5 +20,6 @@ reppl put hash  gmp-src   mbO3LDXQDhJZvH9hKPUFYbidQc9tI8qkSqVvstJWGfdT4S3u6y2mDb
 reppl put hash  mpc-src   WfzjtnEfTaA-NaczWSMymCVxH8ydkaUa44wlfbilZnBt_H9KNaXq4zChZJ7qFdiQ  --warehouse=http://www.multiprecision.org/mpc/download/mpc-1.0.3.tar.gz
 reppl eval lfs-002-gcc.frm
 
+reppl put hash  kernel-src  gFPeFwgxUTG_1wkAcvQhLLK0KE_kXlVzve7VOAJiIdF70Khrpb28aVVIPoDWPUEo  --warehouse=https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.7.2.tar.xz
 reppl eval lfs-003-kernelheaders.frm
 reppl eval lfs-004-glibc.frm

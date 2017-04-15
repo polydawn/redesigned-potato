@@ -1,21 +1,9 @@
 ## Unpack kernel headers.
 ##  http://www.linuxfromscratch.org/lfs/view/stable/chapter05/linux-headers.html
 inputs:
-        "/":
-                type: "tar"
-                tag:  "ubuntu+lfs-deps"
-                silo: "file+ca://wares/"
-        "/src/kernel":
-                type: "tar"
-                hash: "gFPeFwgxUTG_1wkAcvQhLLK0KE_kXlVzve7VOAJiIdF70Khrpb28aVVIPoDWPUEo"
-                silo:
-                  - "file://wares/linux-4.7.2.tar.xz"
-                  - "https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.7.2.tar.xz"
-        "/lfs/tools":
-                type: "tar"
-                tag: "lfs-002-gcc"
-                silo: "file+ca://wares/"
-                
+        "/":            {tag: "ubuntu+lfs-deps"}
+        "/src/kernel":  {tag: "kernel-src"}
+        "/lfs/tools":   {tag: "lfs-002-gcc"}
 action:
         policy: governor
         env:
