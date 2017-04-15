@@ -1,30 +1,12 @@
 ## gcc
 ## http://www.linuxfromscratch.org/lfs/view/stable/chapter05/gcc-pass1.html
 inputs:
-        "/":
-                type: "tar"
-                tag:  "ubuntu+lfs-deps"
-                silo: "file+ca://wares/"
-        "/lfs/tools":
-                type: "tar"
-                tag:  "lfs-001-binutils"
-                silo: "file+ca://wares/"
-        "/src/gcc":
-                type: "tar"
-                hash: "Oez-roS1_43a20jVb7RqtK0g2KbrU87Wd__B5N_rCnkplQZU8tY0Rk9hdiyUXzkb"
-                silo: "http://ftp.gnu.org/gnu/gcc/gcc-6.2.0/gcc-6.2.0.tar.bz2"
-        "/src/mpfr":
-                type: "tar"
-                hash: "IHIFTbYhG9Vtrey51vNrJcDcNRRN3HbXCTevp8l65vHqVWps3tJVHNS6WPqLUXvq"
-                silo: "http://www.mpfr.org/mpfr-3.1.4/mpfr-3.1.4.tar.xz"
-        "/src/gmp":
-                type: "tar"
-                hash: "mbO3LDXQDhJZvH9hKPUFYbidQc9tI8qkSqVvstJWGfdT4S3u6y2mDboltFVNjYKY"
-                silo: "http://ftp.gnu.org/gnu/gmp/gmp-6.1.1.tar.xz"
-        "/src/mpc":
-                type: "tar"
-                hash: "WfzjtnEfTaA-NaczWSMymCVxH8ydkaUa44wlfbilZnBt_H9KNaXq4zChZJ7qFdiQ"
-                silo: "http://www.multiprecision.org/mpc/download/mpc-1.0.3.tar.gz"
+        "/":           {tag: "ubuntu+lfs-deps"}
+        "/lfs/tools":  {tag: "lfs-001-binutils"}
+        "/src/gcc":    {tag: "gcc-src"}
+        "/src/mpfr":   {tag: "mpfr-src"}
+        "/src/gmp":    {tag: "gmp-src"}
+        "/src/mpc":    {tag: "mpc-src"}
 action:
         policy: governor
         env:
