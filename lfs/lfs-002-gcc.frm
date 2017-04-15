@@ -27,7 +27,7 @@ action:
                         cp -r /src/gmp/gmp-* gmp
                         cp -r /src/mpc/mpc-* mpc
 
-                        ## "The following command will change the location of GCC's default dynamic linker to use the one installed in /tools. 
+                        ## "The following command will change the location of GCC's default dynamic linker to use the one installed in /tools.
                         ## It also removes /usr/include from GCC's include search path."
                         for file in \
                          $(find gcc/config -name linux64.h -o -name linux.h -o -name sysv4.h)
