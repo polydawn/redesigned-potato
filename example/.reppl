@@ -1,0 +1,39 @@
+{
+	"Memos": {
+		"iEZLF2mFmWFU4X8RKnU2LTrcdKXGvtWjmqGFAMv0DsWZRYozAwErtb4f07ygTnaK": "d-JxXCN3hyl0XcaXw5rYsSSReUJ8792LjpPwQHOMUFUZHEr5CLNHOV0pCM-7Azd4"
+	},
+	"RunRecords": {
+		"d-JxXCN3hyl0XcaXw5rYsSSReUJ8792LjpPwQHOMUFUZHEr5CLNHOV0pCM-7Azd4": {
+			"HID": "d-JxXCN3hyl0XcaXw5rYsSSReUJ8792LjpPwQHOMUFUZHEr5CLNHOV0pCM-7Azd4",
+			"UID": "b6cqq23q-7nxhr8xn-ctrqysa8",
+			"formulaHID": "iEZLF2mFmWFU4X8RKnU2LTrcdKXGvtWjmqGFAMv0DsWZRYozAwErtb4f07ygTnaK",
+			"results": {
+				"$exitcode": {
+					"hash": "0",
+					"type": "exitcode"
+				},
+				"asset-A": {
+					"hash": "vIFZPYS0mNs8MF2iJTWrMIrjzK_aDvFmQWgADujjIfpVJhokXjah945-RIxIHZMJ",
+					"type": "tar"
+				}
+			},
+			"when": "2017-01-13T21:18:47+01:00"
+		}
+	},
+	"Tags": {
+		"ubuntu-base": {
+			"RunRecordHID": "",
+			"Ware": {
+				"hash": "aLMH4qK1EdlPDavdhErOs0BPxqO0i6lUaeRE4DuUmnNMxhHtF56gkoeSulvwWNqT",
+				"type": "tar"
+			}
+		},
+		"asset-A": {
+			"RunRecordHID": "d-JxXCN3hyl0XcaXw5rYsSSReUJ8792LjpPwQHOMUFUZHEr5CLNHOV0pCM-7Azd4",
+			"Ware": {
+				"hash": "vIFZPYS0mNs8MF2iJTWrMIrjzK_aDvFmQWgADujjIfpVJhokXjah945-RIxIHZMJ",
+				"type": "tar"
+			}
+		}
+	}
+}
