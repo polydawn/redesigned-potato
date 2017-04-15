@@ -1,10 +1,5 @@
 inputs:
-        "/":
-                type: "tar"
-                tag:  "ubuntu-base"
-                silo:
-                        - "file+ca://./wares"
-                        - "http+ca://repeatr.s3.amazonaws.com/assets/"
+        "/":  {tag: "ubuntu-base"}
 action:
         policy: "governor"
         command:
