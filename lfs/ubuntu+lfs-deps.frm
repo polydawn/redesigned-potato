@@ -5,22 +5,6 @@ inputs:
                 silo:
                         - "file+ca://./wares"
                         - "http+ca://repeatr.s3.amazonaws.com/assets/"
-        "/task/src/gcc":
-                type: "tar"
-                hash: "Oez-roS1_43a20jVb7RqtK0g2KbrU87Wd__B5N_rCnkplQZU8tY0Rk9hdiyUXzkb"
-                silo: "https://ftp.gnu.org/gnu/gcc/gcc-6.2.0/gcc-6.2.0.tar.gz"
-        "/task/src/mpfr":
-                type: "tar"
-                hash: "zDDUnHejvCr6AOuxeJHXgG4tDtvB6_tVpmC8aIQFSsQmYBokgJxXtb2TeWdul9yZ"
-                silo: "https://ftp.gnu.org/gnu/mpfr/mpfr-3.1.5.tar.gz"
-        "/task/src/gmp":
-                type: "tar"
-                hash: "mbO3LDXQDhJZvH9hKPUFYbidQc9tI8qkSqVvstJWGfdT4S3u6y2mDboltFVNjYKY"
-                silo: "https://ftp.gnu.org/gnu/gmp/gmp-6.1.1.tar.bz2"
-        "/task/src/mpc":
-                type: "tar"
-                hash: "WfzjtnEfTaA-NaczWSMymCVxH8ydkaUa44wlfbilZnBt_H9KNaXq4zChZJ7qFdiQ"
-                silo: "https://ftp.gnu.org/gnu/mpc/mpc-1.0.3.tar.gz"
 action:
         policy: "governor"
         command:
@@ -29,7 +13,7 @@ action:
                 - |
                         #!/bin/bash
                         set -euo pipefail
-                        
+
                         apt-get update
 
                         # LFS dependancy tools from http://www.linuxfromscratch.org/lfs/view/stable/chapter02/hostreqs.html
@@ -60,7 +44,7 @@ action:
                         install_automake 1.15
                         which automake
                         automake --version
-                        
+
                         # Simple script to list version numbers of critical development tools
                         # borrowed from http://www.linuxfromscratch.org/lfs/view/stable/chapter02/hostreqs.html
                         export LC_ALL=C
@@ -78,7 +62,7 @@ action:
                         elif [ -x /usr/bin/yacc ]; then
                           echo yacc is `/usr/bin/yacc --version | head -n1`
                         else
-                          echo "yacc not found" 
+                          echo "yacc not found"
                         fi
 
                         bzip2 --version 2>&1 < /dev/null | head -n1 | cut -d" " -f1,6-
@@ -91,8 +75,8 @@ action:
                           echo "/usr/bin/awk -> `readlink -f /usr/bin/awk`";
                         elif [ -x /usr/bin/awk ]; then
                           echo awk is `/usr/bin/awk --version | head -n1`
-                        else 
-                          echo "awk not found" 
+                        else
+                          echo "awk not found"
                         fi
 
                         gcc --version | head -n1
