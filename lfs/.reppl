@@ -1,32 +1,36 @@
 {
 	"Memos": {
-		"bBL-1zKxOnn0fx3BtLF0kyOzkNrKXbd1xiudTIRS_-JwAF1Vc6QFdfaR-0WEEBIq": "WJBKf3ipy8Oc4q-dcLr51Ha_q93k1AU5eCZpr19M14jsuKxQd-y08EYajsWvWV8t",
-		"kZ1dAr-ao1V_v_rSKaiLuKsvgFS3Dzd9Ogr7SVi2R70tPdC8hWB9rZwEFWObC68S": "g10Sh2IQKxmRHXrKdt1JgxuRcqFToPF_oRYK9W0uKppMkKZlkONIs65oBziouS55",
-		"HtEyJtYHL1SrncE4KRi_oV3uYNYazmd8bbRgAD07iD3xbfcAHqvyAoNmzeHGY8J7": "IAkd7p0qHIEGPS9FLme-8OlGNJz3h6AhtOMT3qpms59ZlyRsoXMbHdI6f5oHDcZA",
-		"guP_bZIU5PhUbsgrK0F0CeXuQuDVAPdMyfF-i-1xJd8RykfRRmES3LTZU1KKfxL9": "FhpRceijt8354pOZ-KLEVbHIaTBlZcBwlqfDgnJde2JU7IRAmTyaDdunr5vJejLJ",
-		"u0G3OaxTHfr8pund5Oy0qDsjRLO2nJA02PvcbTsg6s79NBrvJKqEhn9NtEr3-y7P": "Kr4ZBNvR0YqgYzLrLYlXVW6C6SkpVK7bs10_wnrVZrGINPCFD5KFRA9_KK2OoYSa"
+		"RJKC1IST6NXNSLvM-rkr3C_ZCQb0SG0vfDFcROJXj9qxBFWZJwfM9GHUN6uGlMEa": "rTbpx7o-GLrXfHuORpq7EzNQDoHokS8Wq6QVL7XCg7JZosMetnZemuJdL8imF2bm",
+		"5h8HyWw4ZbMtcmaXzHH2_gAdy_7k5Cr2gmmQQEUXms4mZhc659v8MI0G9SBlJMfZ": "P9zb8BR2LFJFj1YpKpjQwseQu_MR-tbQbz8i4rl_YkacfYSYtQa6XyYTK_C8Mg56",
+		"2HCYlTlc6Ae5H0fmopPALDHkJHQ2s-ZWdQ_5coc-hf6M6UlDpQ7qwPNlQyPM2e4_": "jm7nskwv7MrMcLJl78etd16AmNCNPGqHm3vXcOOZ0Iuedn9tXUBHPp8V06TRPRj6",
+		"afY9ZeLVgdzOi3rrecHdmKUf2XUxf0bMLN4nMhhm2EccT_tlJ7XVOIittelYYRHW": "zEg9sReFMSyDnE0kOITNnJWBz-7cPJZzZJle1BYNMTFTaZmziAPaVi9t7aUGrz4n",
+		"EJl2ahnyfGN_s4FkDFAufqyAvK9K4680W4RI-vtwzM93-M08pinPdhoT5Ldsi1zG": "QDqJx9dvRQIU9S_QkdrnLgG2091-zWySlzPytttya2S2diqCQcT6KlUGbVJ6gpjB"
 	},
 	"RunRecords": {
-		"g10Sh2IQKxmRHXrKdt1JgxuRcqFToPF_oRYK9W0uKppMkKZlkONIs65oBziouS55": {
-			"HID": "g10Sh2IQKxmRHXrKdt1JgxuRcqFToPF_oRYK9W0uKppMkKZlkONIs65oBziouS55",
-			"UID": "b6p9at83-hbgctn4p-6qk7dvva",
-			"formulaHID": "kZ1dAr-ao1V_v_rSKaiLuKsvgFS3Dzd9Ogr7SVi2R70tPdC8hWB9rZwEFWObC68S",
+		"zEg9sReFMSyDnE0kOITNnJWBz-7cPJZzZJle1BYNMTFTaZmziAPaVi9t7aUGrz4n": {
+			"HID": "zEg9sReFMSyDnE0kOITNnJWBz-7cPJZzZJle1BYNMTFTaZmziAPaVi9t7aUGrz4n",
+			"UID": "bdrnbmn5-zqxf9g8m-nrf7y3f7",
+			"formulaHID": "afY9ZeLVgdzOi3rrecHdmKUf2XUxf0bMLN4nMhhm2EccT_tlJ7XVOIittelYYRHW",
 			"results": {
 				"$exitcode": {
 					"hash": "0",
 					"type": "exitcode"
 				},
-				"ubuntu+lfs-deps": {
-					"hash": "2FHpqcV1Y0UcLLxSkZXQg-iyoUTP5oX3mAhkMts2Bvnmh3pIntryyds8Mr_L82uw",
+				"debug": {
+					"hash": "cerdjyMdc-PUtbyS90qxEQKAwfHEYKxR1WU4idI_qcguObwdYN9_nicqojcmEv07",
+					"type": "dir"
+				},
+				"tools": {
+					"hash": "A6PVYWih5OSUvJKIpeXYel-VPM9enUrk85gmJJUUDZSG5bIavv4QQ0DSP0aGksez",
 					"type": "tar"
 				}
 			},
-			"when": "2017-01-17T14:22:37+01:00"
+			"when": "2017-04-15T13:05:46+02:00"
 		},
-		"IAkd7p0qHIEGPS9FLme-8OlGNJz3h6AhtOMT3qpms59ZlyRsoXMbHdI6f5oHDcZA": {
-			"HID": "IAkd7p0qHIEGPS9FLme-8OlGNJz3h6AhtOMT3qpms59ZlyRsoXMbHdI6f5oHDcZA",
-			"UID": "b6p9fyb1-3sy8yg8r-fd294gwd",
-			"formulaHID": "HtEyJtYHL1SrncE4KRi_oV3uYNYazmd8bbRgAD07iD3xbfcAHqvyAoNmzeHGY8J7",
+		"QDqJx9dvRQIU9S_QkdrnLgG2091-zWySlzPytttya2S2diqCQcT6KlUGbVJ6gpjB": {
+			"HID": "QDqJx9dvRQIU9S_QkdrnLgG2091-zWySlzPytttya2S2diqCQcT6KlUGbVJ6gpjB",
+			"UID": "bdrg74bb-2doo6ntq-3rdpv0ra",
+			"formulaHID": "EJl2ahnyfGN_s4FkDFAufqyAvK9K4680W4RI-vtwzM93-M08pinPdhoT5Ldsi1zG",
 			"results": {
 				"$exitcode": {
 					"hash": "0",
@@ -41,113 +45,151 @@
 					"type": "dir"
 				}
 			},
-			"when": "2017-01-17T14:24:33+01:00"
+			"when": "2017-04-15T11:49:30+02:00"
 		},
-		"FhpRceijt8354pOZ-KLEVbHIaTBlZcBwlqfDgnJde2JU7IRAmTyaDdunr5vJejLJ": {
-			"HID": "FhpRceijt8354pOZ-KLEVbHIaTBlZcBwlqfDgnJde2JU7IRAmTyaDdunr5vJejLJ",
-			"UID": "b6pa4qqb-pcyp3opo-9z0xkvcg",
-			"formulaHID": "guP_bZIU5PhUbsgrK0F0CeXuQuDVAPdMyfF-i-1xJd8RykfRRmES3LTZU1KKfxL9",
+		"rTbpx7o-GLrXfHuORpq7EzNQDoHokS8Wq6QVL7XCg7JZosMetnZemuJdL8imF2bm": {
+			"HID": "rTbpx7o-GLrXfHuORpq7EzNQDoHokS8Wq6QVL7XCg7JZosMetnZemuJdL8imF2bm",
+			"UID": "bdrg4zcr-cezwmo38-1cr3pc0m",
+			"formulaHID": "RJKC1IST6NXNSLvM-rkr3C_ZCQb0SG0vfDFcROJXj9qxBFWZJwfM9GHUN6uGlMEa",
 			"results": {
 				"$exitcode": {
 					"hash": "0",
 					"type": "exitcode"
 				},
-				"debug": {
-					"hash": "dtCR1cFtJlcUGO5AEQLkDn3tpAF5CGYnHc4_0gMY6PmPjwOdsWHUBF9ncHlYN3KW",
-					"type": "dir"
-				},
-				"tools": {
-					"hash": "tPBNwkYezvLGIkLd9Lmt-ZB_l0w1PI06DwY1r1M3yUqHeqT2ytP1taOCmMfNPUHi",
+				"ubuntu+lfs-deps": {
+					"hash": "PmuAjI3j8jf46NPR3fhYxiZ5bf-RCaMde7lSKrEHZ4FUkUblSPOx6U03nsiHnNQu",
 					"type": "tar"
 				}
 			},
-			"when": "2017-01-18T09:54:44+01:00"
+			"when": "2017-04-15T11:48:30+02:00"
 		},
-		"Kr4ZBNvR0YqgYzLrLYlXVW6C6SkpVK7bs10_wnrVZrGINPCFD5KFRA9_KK2OoYSa": {
-			"HID": "Kr4ZBNvR0YqgYzLrLYlXVW6C6SkpVK7bs10_wnrVZrGINPCFD5KFRA9_KK2OoYSa",
-			"UID": "b6p9mesb-dg5ayedp-rhex9moq",
-			"formulaHID": "u0G3OaxTHfr8pund5Oy0qDsjRLO2nJA02PvcbTsg6s79NBrvJKqEhn9NtEr3-y7P",
+		"P9zb8BR2LFJFj1YpKpjQwseQu_MR-tbQbz8i4rl_YkacfYSYtQa6XyYTK_C8Mg56": {
+			"HID": "P9zb8BR2LFJFj1YpKpjQwseQu_MR-tbQbz8i4rl_YkacfYSYtQa6XyYTK_C8Mg56",
+			"UID": "bdrn2h1v-rw14w20k-e4xr05ch",
+			"formulaHID": "5h8HyWw4ZbMtcmaXzHH2_gAdy_7k5Cr2gmmQQEUXms4mZhc659v8MI0G9SBlJMfZ",
 			"results": {
 				"$exitcode": {
 					"hash": "0",
 					"type": "exitcode"
 				},
 				"debug": {
-					"hash": "HMzH5gYGFHh3uS6mnDY4xYU8jPS3bShL4Ar9CynqAjqezN6TaakHoNs4QhnIetkb",
+					"hash": "2Hdj4OD-nVH1u94Qy3u9R9PEE3ReBQSW4_47xWNVhY5g_27bI17db8P_q_ASNRUX",
+					"type": "dir"
+				},
+				"tools": {
+					"hash": "sjRTfXx6lUfiRUdYnuzgcObnb-_vFPndf-8hpNa02nGJzBu2nnUnriqUO33QVA-9",
+					"type": "tar"
+				}
+			},
+			"when": "2017-04-15T12:56:59+02:00"
+		},
+		"jm7nskwv7MrMcLJl78etd16AmNCNPGqHm3vXcOOZ0Iuedn9tXUBHPp8V06TRPRj6": {
+			"HID": "jm7nskwv7MrMcLJl78etd16AmNCNPGqHm3vXcOOZ0Iuedn9tXUBHPp8V06TRPRj6",
+			"UID": "bdrhgww3-358mh8fn-zpg2cavg",
+			"formulaHID": "2HCYlTlc6Ae5H0fmopPALDHkJHQ2s-ZWdQ_5coc-hf6M6UlDpQ7qwPNlQyPM2e4_",
+			"results": {
+				"$exitcode": {
+					"hash": "0",
+					"type": "exitcode"
+				},
+				"debug": {
+					"hash": "9Npo5KWLUWxTPDPyFrULiZtZjX2cOT85YGmEEWdY9NtT8USZTNl354d3QhTarJJ_",
 					"type": "dir"
 				},
 				"debug2": {
-					"hash": "8Gd-5e7v8bn3gXWcSyeNlC5ZxgttSzYPIrJuxY4piR2sZk1Jc5dMGwlyTc2UQiho",
+					"hash": "IzJh4s3888TqlEsMUbPvBX96bBe48n1KpEMG6RTneMJ4slnUGk8EdAMaG9AVEr1b",
 					"type": "dir"
 				},
 				"tools": {
-					"hash": "zVIPw8NxsOZzFsWNMfKZHF3vdYBTTX_qzW4KNkhjaq0QMHrHNvjcIz2nS-nhxC8n",
+					"hash": "QcgBcqV0__sbn2kG1LIaF2mwogt0MaBucxlnBj3qO4TYJpiEYnyINeUrv-tKi6m9",
 					"type": "tar"
 				}
 			},
-			"when": "2017-01-17T14:32:53+01:00"
-		},
-		"WJBKf3ipy8Oc4q-dcLr51Ha_q93k1AU5eCZpr19M14jsuKxQd-y08EYajsWvWV8t": {
-			"HID": "WJBKf3ipy8Oc4q-dcLr51Ha_q93k1AU5eCZpr19M14jsuKxQd-y08EYajsWvWV8t",
-			"UID": "b6pa2q77-m8t340mm-4ebch82s",
-			"formulaHID": "bBL-1zKxOnn0fx3BtLF0kyOzkNrKXbd1xiudTIRS_-JwAF1Vc6QFdfaR-0WEEBIq",
-			"results": {
-				"$exitcode": {
-					"hash": "0",
-					"type": "exitcode"
-				},
-				"debug": {
-					"hash": "YPwkpWT_eA2SB79URlReGC84pObI1oG8R9GVSP-GKGHzB3DvJSGdCMpYj3rVuf36",
-					"type": "dir"
-				},
-				"tools": {
-					"hash": "mS12-0c4QAFezxid7g-zg4PLqcNS0mxRQJoTVvEXxT0pqTm8O-RzPJwAhvuAEIOO",
-					"type": "tar"
-				}
-			},
-			"when": "2017-01-17T14:33:59+01:00"
+			"when": "2017-04-15T12:18:38+02:00"
 		}
 	},
 	"Tags": {
-		"ubuntu+lfs-deps": {
-			"RunRecordHID": "g10Sh2IQKxmRHXrKdt1JgxuRcqFToPF_oRYK9W0uKppMkKZlkONIs65oBziouS55",
+		"mpc-src": {
+			"RunRecordHID": "",
 			"Ware": {
-				"hash": "2FHpqcV1Y0UcLLxSkZXQg-iyoUTP5oX3mAhkMts2Bvnmh3pIntryyds8Mr_L82uw",
+				"hash": "WfzjtnEfTaA-NaczWSMymCVxH8ydkaUa44wlfbilZnBt_H9KNaXq4zChZJ7qFdiQ",
+				"type": "tar"
+			}
+		},
+		"lfs-003-kernelheaders": {
+			"RunRecordHID": "P9zb8BR2LFJFj1YpKpjQwseQu_MR-tbQbz8i4rl_YkacfYSYtQa6XyYTK_C8Mg56",
+			"Ware": {
+				"hash": "sjRTfXx6lUfiRUdYnuzgcObnb-_vFPndf-8hpNa02nGJzBu2nnUnriqUO33QVA-9",
+				"type": "tar"
+			}
+		},
+		"ubuntu+lfs-deps": {
+			"RunRecordHID": "rTbpx7o-GLrXfHuORpq7EzNQDoHokS8Wq6QVL7XCg7JZosMetnZemuJdL8imF2bm",
+			"Ware": {
+				"hash": "PmuAjI3j8jf46NPR3fhYxiZ5bf-RCaMde7lSKrEHZ4FUkUblSPOx6U03nsiHnNQu",
+				"type": "tar"
+			}
+		},
+		"binutils-src": {
+			"RunRecordHID": "",
+			"Ware": {
+				"hash": "m2-ZAxYvz_XMuWPj0lay3vsxf-pmrghkLQUeG83JzJfEg8eZ3d4q17eqq1Z5OGdY",
+				"type": "tar"
+			}
+		},
+		"gmp-src": {
+			"RunRecordHID": "",
+			"Ware": {
+				"hash": "mbO3LDXQDhJZvH9hKPUFYbidQc9tI8qkSqVvstJWGfdT4S3u6y2mDboltFVNjYKY",
 				"type": "tar"
 			}
 		},
 		"lfs-001-binutils": {
-			"RunRecordHID": "IAkd7p0qHIEGPS9FLme-8OlGNJz3h6AhtOMT3qpms59ZlyRsoXMbHdI6f5oHDcZA",
+			"RunRecordHID": "QDqJx9dvRQIU9S_QkdrnLgG2091-zWySlzPytttya2S2diqCQcT6KlUGbVJ6gpjB",
 			"Ware": {
 				"hash": "vZRdKlNABl0K2wUcbUT9vbbQ3a2f5jgdYhkz7t1rYcwSJmc4YcvFlfY1KejnHqwk",
 				"type": "tar"
 			}
 		},
-		"lfs-004-glibc": {
-			"RunRecordHID": "FhpRceijt8354pOZ-KLEVbHIaTBlZcBwlqfDgnJde2JU7IRAmTyaDdunr5vJejLJ",
-			"Ware": {
-				"hash": "tPBNwkYezvLGIkLd9Lmt-ZB_l0w1PI06DwY1r1M3yUqHeqT2ytP1taOCmMfNPUHi",
-				"type": "tar"
-			}
-		},
 		"lfs-002-gcc": {
-			"RunRecordHID": "Kr4ZBNvR0YqgYzLrLYlXVW6C6SkpVK7bs10_wnrVZrGINPCFD5KFRA9_KK2OoYSa",
+			"RunRecordHID": "jm7nskwv7MrMcLJl78etd16AmNCNPGqHm3vXcOOZ0Iuedn9tXUBHPp8V06TRPRj6",
 			"Ware": {
-				"hash": "zVIPw8NxsOZzFsWNMfKZHF3vdYBTTX_qzW4KNkhjaq0QMHrHNvjcIz2nS-nhxC8n",
+				"hash": "QcgBcqV0__sbn2kG1LIaF2mwogt0MaBucxlnBj3qO4TYJpiEYnyINeUrv-tKi6m9",
 				"type": "tar"
 			}
 		},
-		"lfs-003-kernelheaders": {
-			"RunRecordHID": "WJBKf3ipy8Oc4q-dcLr51Ha_q93k1AU5eCZpr19M14jsuKxQd-y08EYajsWvWV8t",
-			"Ware": {
-				"hash": "mS12-0c4QAFezxid7g-zg4PLqcNS0mxRQJoTVvEXxT0pqTm8O-RzPJwAhvuAEIOO",
-				"type": "tar"
-			}
-		},
-		"ubuntu-base": {
+		"kernel-src": {
 			"RunRecordHID": "",
 			"Ware": {
-				"hash": "aLMH4qK1EdlPDavdhErOs0BPxqO0i6lUaeRE4DuUmnNMxhHtF56gkoeSulvwWNqT",
+				"hash": "gFPeFwgxUTG_1wkAcvQhLLK0KE_kXlVzve7VOAJiIdF70Khrpb28aVVIPoDWPUEo",
+				"type": "tar"
+			}
+		},
+		"lfs-004-glibc": {
+			"RunRecordHID": "zEg9sReFMSyDnE0kOITNnJWBz-7cPJZzZJle1BYNMTFTaZmziAPaVi9t7aUGrz4n",
+			"Ware": {
+				"hash": "A6PVYWih5OSUvJKIpeXYel-VPM9enUrk85gmJJUUDZSG5bIavv4QQ0DSP0aGksez",
+				"type": "tar"
+			}
+		},
+		"gcc-src": {
+			"RunRecordHID": "",
+			"Ware": {
+				"hash": "Oez-roS1_43a20jVb7RqtK0g2KbrU87Wd__B5N_rCnkplQZU8tY0Rk9hdiyUXzkb",
+				"type": "tar"
+			}
+		},
+		"mpfr-src": {
+			"RunRecordHID": "",
+			"Ware": {
+				"hash": "IHIFTbYhG9Vtrey51vNrJcDcNRRN3HbXCTevp8l65vHqVWps3tJVHNS6WPqLUXvq",
+				"type": "tar"
+			}
+		},
+		"glibc-src": {
+			"RunRecordHID": "",
+			"Ware": {
+				"hash": "EuSaUYVTHP-qIzxgY2vDdArjzitbFQQ8G-YDe2_dZU48zGd0seLcBpb6kGElk62Z",
 				"type": "tar"
 			}
 		},
@@ -157,6 +199,67 @@
 				"hash": "0-wPN--PLP80sClmWF_GtUZMckIEiSIC9nCcbzwun55ucvZA2P3ui9rx63yMVacc",
 				"type": "tar"
 			}
+		},
+		"ubuntu-base": {
+			"RunRecordHID": "",
+			"Ware": {
+				"hash": "aLMH4qK1EdlPDavdhErOs0BPxqO0i6lUaeRE4DuUmnNMxhHtF56gkoeSulvwWNqT",
+				"type": "tar"
+			}
 		}
+	},
+	"Whereabouts": {
+		{
+			"hash": "IHIFTbYhG9Vtrey51vNrJcDcNRRN3HbXCTevp8l65vHqVWps3tJVHNS6WPqLUXvq",
+			"type": "tar"
+		}: "http://www.mpfr.org/mpfr-3.1.4/mpfr-3.1.4.tar.xz",
+		{
+			"hash": "m2-ZAxYvz_XMuWPj0lay3vsxf-pmrghkLQUeG83JzJfEg8eZ3d4q17eqq1Z5OGdY",
+			"type": "tar"
+		}: "http://ftp.gnu.org/gnu/binutils/binutils-2.27.tar.bz2",
+		{
+			"hash": "sjRTfXx6lUfiRUdYnuzgcObnb-_vFPndf-8hpNa02nGJzBu2nnUnriqUO33QVA-9",
+			"type": "tar"
+		}: "file+ca://wares/",
+		{
+			"hash": "PmuAjI3j8jf46NPR3fhYxiZ5bf-RCaMde7lSKrEHZ4FUkUblSPOx6U03nsiHnNQu",
+			"type": "tar"
+		}: "file+ca://./wares",
+		{
+			"hash": "gFPeFwgxUTG_1wkAcvQhLLK0KE_kXlVzve7VOAJiIdF70Khrpb28aVVIPoDWPUEo",
+			"type": "tar"
+		}: "https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.7.2.tar.xz",
+		{
+			"hash": "vZRdKlNABl0K2wUcbUT9vbbQ3a2f5jgdYhkz7t1rYcwSJmc4YcvFlfY1KejnHqwk",
+			"type": "tar"
+		}: "file+ca://wares/",
+		{
+			"hash": "QcgBcqV0__sbn2kG1LIaF2mwogt0MaBucxlnBj3qO4TYJpiEYnyINeUrv-tKi6m9",
+			"type": "tar"
+		}: "file+ca://wares/",
+		{
+			"hash": "EuSaUYVTHP-qIzxgY2vDdArjzitbFQQ8G-YDe2_dZU48zGd0seLcBpb6kGElk62Z",
+			"type": "tar"
+		}: "http://ftp.gnu.org/gnu/glibc/glibc-2.24.tar.xz",
+		{
+			"hash": "Oez-roS1_43a20jVb7RqtK0g2KbrU87Wd__B5N_rCnkplQZU8tY0Rk9hdiyUXzkb",
+			"type": "tar"
+		}: "http://ftp.gnu.org/gnu/gcc/gcc-6.2.0/gcc-6.2.0.tar.bz2",
+		{
+			"hash": "aLMH4qK1EdlPDavdhErOs0BPxqO0i6lUaeRE4DuUmnNMxhHtF56gkoeSulvwWNqT",
+			"type": "tar"
+		}: "http+ca://repeatr.s3.amazonaws.com/assets/",
+		{
+			"hash": "WfzjtnEfTaA-NaczWSMymCVxH8ydkaUa44wlfbilZnBt_H9KNaXq4zChZJ7qFdiQ",
+			"type": "tar"
+		}: "http://www.multiprecision.org/mpc/download/mpc-1.0.3.tar.gz",
+		{
+			"hash": "A6PVYWih5OSUvJKIpeXYel-VPM9enUrk85gmJJUUDZSG5bIavv4QQ0DSP0aGksez",
+			"type": "tar"
+		}: "file+ca://wares/",
+		{
+			"hash": "mbO3LDXQDhJZvH9hKPUFYbidQc9tI8qkSqVvstJWGfdT4S3u6y2mDboltFVNjYKY",
+			"type": "tar"
+		}: "http://ftp.gnu.org/gnu/gmp/gmp-6.1.1.tar.xz"
 	}
 }
