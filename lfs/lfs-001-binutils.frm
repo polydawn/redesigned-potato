@@ -1,16 +1,8 @@
 ## Binutils
 ## http://www.linuxfromscratch.org/lfs/view/stable/chapter05/binutils-pass1.html
 inputs:
-	"/":
-		type: "tar"
-		tag:  "ubuntu+lfs-deps"
-		silo:
-			- "file+ca://wares/"
-			- "http+ca://repeatr.s3.amazonaws.com/assets/"
-	"/src/binutils":
-		type: "tar"
-		hash: "m2-ZAxYvz_XMuWPj0lay3vsxf-pmrghkLQUeG83JzJfEg8eZ3d4q17eqq1Z5OGdY"
-		silo: "http://ftp.gnu.org/gnu/binutils/binutils-2.27.tar.bz2"
+	"/":             {tag: "ubuntu+lfs-deps"}
+	"/src/binutils": {tag: "binutils-src"}
 action:
 	policy: governor
 	env:
